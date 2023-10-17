@@ -15,9 +15,10 @@ module.exports = {
   },
   plugins: {
     '@release-it/conventional-changelog': {
-      preset: 'angular',
+      preset: {
+        name: 'angular',
+      },
       infile: 'CHANGELOG.md',
-      ignoreRecommendedBump: true,
     },
   },
 }
