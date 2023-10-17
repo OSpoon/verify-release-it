@@ -1,5 +1,12 @@
 
 
+## [0.0.24](https://github.com/OSpoon/verify-release-it/compare/0.0.23...0.0.24) (2023-10-17)
+
+
+### Bug Fixes
+
+* CICD ([e07219b](https://github.com/OSpoon/verify-release-it/commit/e07219bad490261f56735c1ce392b4e6363eca2a))
+
 ## [0.0.23](https://github.com/OSpoon/verify-release-it/compare/0.0.22...0.0.23) (2023-10-17)
 
 
