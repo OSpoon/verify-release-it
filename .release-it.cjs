@@ -2,7 +2,7 @@
 module.exports = {
   hooks: {
     'before:init': ['npm run typecheck', 'npm run test:ci'],
-    'after:bump': ['npx auto-changelog -p', 'npm run build'],
+    'after:bump': 'npm run build',
   },
   git: {
     commitMessage: 'chore: release v${version}',
