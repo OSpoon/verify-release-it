@@ -10,7 +10,9 @@ module.exports = {
   },
   github: {
     release: true,
-    releaseNotes: 'generate-release-notes.sh --from=${latestTag} --to=${tagName}',
+    releaseNotes(context) {
+      return context.changelog.split('\n').slice(1).join('\n')
+    },
   },
   npm: {
     release: true,
