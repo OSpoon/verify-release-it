@@ -3,14 +3,14 @@
   "type": "module",
   "version": "0.0.10",
   "description": " 验证 release-it 发布",
-  "author": " OSpoon zxin088@gmail.com",
+  "author": "OSpoon zxin088@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/ OSpoon/verify-release-it#readme",
+  "homepage": "https://github.com/OSpoon/verify-release-it#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ OSpoon/verify-release-it.git"
+    "url": "git+https://github.com/OSpoon/verify-release-it.git"
   },
-  "bugs": "https://github.com/ OSpoon/verify-release-it/issues",
+  "bugs": "https://github.com/OSpoon/verify-release-it/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
