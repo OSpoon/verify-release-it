@@ -1,16 +1,16 @@
 {
-  "name": "starter-ts",
+  "name": "verify-release-it",
   "type": "module",
   "version": "0.0.0",
-  "description": "描述这个库想要做什么",
-  "author": "填写开发者昵称 填写开发者邮箱",
+  "description": " 验证 release-it 发布",
+  "author": " OSpoon zxin088@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/填写开发者昵称/starter-ts#readme",
+  "homepage": "https://github.com/ OSpoon/verify-release-it#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/填写开发者昵称/starter-ts.git"
+    "url": "git+https://github.com/ OSpoon/verify-release-it.git"
   },
-  "bugs": "https://github.com/填写开发者昵称/starter-ts/issues",
+  "bugs": "https://github.com/ OSpoon/verify-release-it/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
