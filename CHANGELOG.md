@@ -1,5 +1,13 @@
 
 
+## [0.0.23](https://github.com/OSpoon/verify-release-it/compare/0.0.22...0.0.23) (2023-10-17)
+
+
+### Bug Fixes
+
+* actions ([2a82cd4](https://github.com/OSpoon/verify-release-it/commit/2a82cd40857688e9743046388294fd43d9bd110b))
+* 修复 CI ([8687250](https://github.com/OSpoon/verify-release-it/commit/8687250ecca05c27fef75f95fd3e101377d1afe2))
+
 ## 0.0.22 (2023-10-17)
 
 ## 0.0.21 (2023-10-17)
