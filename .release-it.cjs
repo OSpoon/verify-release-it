@@ -6,15 +6,16 @@ module.exports = {
   },
   git: {
     commitMessage: 'chore: release v${version}',
-    changelog: 'npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs',
   },
   github: {
     release: true,
-    releaseNotes(context) {
-      return context.changelog.split('\n').slice(1).join('\n')
-    },
   },
   npm: {
     release: true,
+  },
+  plugins: {
+    '@release-it/keep-a-changelog': {
+      filename: 'CHANGELOG.md',
+    },
   },
 }
