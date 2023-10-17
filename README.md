@@ -1,6 +1,6 @@
 # verify-release-it
 
- 验证 release-it 发布
+验证 release-it 发布
 
 ## License
 
