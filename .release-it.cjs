@@ -3,8 +3,6 @@ module.exports = {
   hooks: {
     'before:init': ['npm run typecheck', 'npm run test:ci'],
     'after:bump': ['npx auto-changelog -p', 'npm run build'],
-    'after:git:release': 'echo After git push, before github release',
-    'after:release': 'echo Successfully released ${name} v${version} to ${repo.repository}.',
   },
   git: {
     commitMessage: 'chore: release v${version}',
@@ -12,14 +10,9 @@ module.exports = {
   },
   github: {
     release: true,
+    releaseNotes: 'generate-release-notes.sh --from=${latestTag} --to=${tagName}',
   },
   npm: {
     release: true,
-  },
-  plugins: {
-    '@release-it/conventional-changelog': {
-      preset: 'angular',
-      infile: 'CHANGELOG.md',
-    },
   },
 }
