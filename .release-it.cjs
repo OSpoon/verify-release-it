@@ -16,6 +16,7 @@ module.exports = {
   plugins: {
     '@release-it/keep-a-changelog': {
       filename: 'CHANGELOG.md',
+      strictLatest: false,
     },
   },
 }
